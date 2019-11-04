@@ -1,0 +1,19 @@
+certifi
+cffi
+chardet
+Click
+cryptography
+Flask
+-e git+https://github.com/jp-96/Flask-FirebaseAuth.git #Flask-FirebaseAuth
+Flask-Login
+gunicorn
+idna
+itsdangerous
+Jinja2
+MarkupSafe
+pycparser
+PyJWT
+requests
+six
+urllib3
+Werkzeug
