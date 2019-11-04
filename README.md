@@ -6,7 +6,7 @@
 
 ```
 py -3 -m virtualenv --python "C:\Python37\python.exe" venv
-venv/Scripts/activate.bat
+venv\Scripts\activate.bat
 ```
 
 ### Install packages
