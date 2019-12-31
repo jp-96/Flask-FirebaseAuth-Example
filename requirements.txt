@@ -4,7 +4,7 @@ chardet
 Click
 cryptography
 Flask
--e git+https://github.com/jp-96/Flask-FirebaseAuth.git#egg=Flask-FirebaseAuth
+-e git+https://github.com/jp-96/Flask-FirebaseAuth.git#egg=Flask-FirebaseAuth>=0.1.1
 Flask-Login
 gunicorn
 idna

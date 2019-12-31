@@ -65,6 +65,7 @@ def request_loader(request):
 
 @login_manager.unauthorized_handler
 def authentication_required():
+    auth.language_code = 'ja' # https://github.com/firebase/firebaseui-web/blob/master/LANGUAGES.md
     return redirect(auth.url_for('widget', mode='select', next=request.url))
 
 @app.route('/')

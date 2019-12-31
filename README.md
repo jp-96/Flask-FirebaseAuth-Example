@@ -1,4 +1,4 @@
-# Flask-FirebaseAuth Example
+﻿# Flask-FirebaseAuth Example
 
 ## Preparation
 
@@ -35,7 +35,7 @@ app.config['FIREBASE_AUTH_SIGN_IN_OPTIONS'] = 'email,facebook,github,google,twit
 ## Run
 
 ```
-python main.py
+python app.py
 ```
 
 ## Deploy
